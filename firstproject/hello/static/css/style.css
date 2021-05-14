@@ -1,0 +1,56 @@
+h1 > img{
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+h1 { 
+    font-family: '맑은 고딕';
+    font-size: 40px;
+    color: #f89514;
+    padding-left: 40px;
+}
+
+nav{
+    color: darkgrey;
+    /* padding-left: 240px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: justify; */
+}
+
+section > article > img{
+    width: 600px;
+    height: 400px;
+    padding-left: 50px;
+    float: left;
+    padding-top: 50px;
+}
+section > article > p{
+    font-family: '맑은 고딕';
+    font-size: 30px;
+    color: red;
+    padding-right: 900px;
+    padding-top: 50px;
+    text-align: right
+}
+section > article > p2{
+    font-family: '맑은 고딕';
+    font-size: 30px;
+    float: right;
+    padding-right: 530px;
+}
+section > article > p3{
+    font-family: '맑은 고딕';
+    font-size: 40px;
+    float: right;
+    padding-right: 793px;
+}
+
+section > article > p4{
+
+    float: right;
+    padding-right: 588px;
+}
+section > article > p5 > img{
+    padding-left: 30px;
+}

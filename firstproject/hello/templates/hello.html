@@ -1,0 +1,58 @@
+<!DOCTYPE html>     <!-- 문서 형식을 정의 -->
+{% load static %}
+<html lang="kr">    <!-- 본격적인 태그의 시작. 사용하는 주 언어를 정의 -->
+<head>  <!-- html문서에 대한 정보를 head에 담음 --> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta태그는 문서와 관련된 정보를 담음 -->
+    <title>정래현_lmsmarket</title>
+    <!-- 웹 페이지의 제목을 적는 태그 -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>  <!-- 실질적으로 보여지는 부분 -->
+    <header>
+        <h1><img src = "{%static 'css/images/당근마켓.png' %}">&emsp;당신의 근처의 종강 마켓</h1>
+        <nav>
+            <p><strong> &emsp;&emsp;&emsp;&emsp;Category)&emsp;&emsp;&emsp;&emsp;&emsp; 전공필수&emsp;&emsp;&emsp;&emsp;&emsp; 전공선택&emsp;&emsp;&emsp;&emsp;&emsp; 교양필수&emsp;&emsp;&emsp;&emsp;&emsp; 교양선택</strong></p>
+        </nav>
+    </header>
+    
+    <section> <!-- 여기서 부터는 기사가 들어갑니다. -->
+        <article> <!-- 여기는 첫번째 기사입니다. -->
+            <img src = "{%static 'css/images/lmsLogo.png' %}" alt MJUlmslogo>
+        </article>
+        <article>
+            <p>
+                <strong>[단독]</strong>
+            </p>
+            <p2>
+            <strong>강좌 출석 면제권 (한정기간 판매)</strong>
+            </p2>
+            <p3>
+            <strong>498,000원</strong><br>
+            </p3>
+            <br><br><br><br><br><br>
+            <p4>
+                현금결제가 458,000원~<br>
+                제휴카드가 468,000원~   KB국민, 하나, 현대 (4/10 까지)<br>
+                <br>
+                MJU Membership 1.5% 적립<br>
+                (2021. 04. 07 ~ 04. 18)<br>
+            </p4>
+            <br><br><br><br><br>
+            <p5>
+                <img src = "{%static 'css/images/purchase.png' %}" alt purchaseBox>
+            </p5>
+        </article>
+    </section>
+    <aside>
+        <!-- 여기에 광고가 들어갑니다. -->
+    </aside>
+    <footer>
+        <br><br><br><br><br><br><br><br>
+        <p>ⓒ 멋쟁이 사자처럼 9기 명지대서울 정래현</p>
+    </footer>
+</body>
+</html>
